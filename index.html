@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem de Blog - Desafio API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Simulador de Postagem</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <article class="form-container">
+                <h2>Criar nova publicação</h2>
+                <form id="form-post">
+                    <div class="form-group">
+                        <label for="titulo">Título:</label>
+                        <input type="text" id="titulo" placeholder="Digite o título do post" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="conteudo">Conteúdo:</label>
+                        <textarea id="conteudo" placeholder="No que você está pensando?" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" id="btn-enviar">Publicar</button>
+                </form>
+            </article>
+
+            <article class="preview-container">
+                <h2>Visualização do Post</h2>
+                <div class="post-card">
+                    <h3 id="renderizador-titulo">O título aparecerá aqui...</h3>
+                    <p id="renderizador-conteudo">O conteúdo do post aparecerá aqui...</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jardheson Oliveira. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
