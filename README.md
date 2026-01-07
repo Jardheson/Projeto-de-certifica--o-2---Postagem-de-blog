@@ -34,4 +34,4 @@ Este é um projeto de certificação front-end que simula a criação de postage
 **Jardheson Oliveira**
 
 ---
-*Projeto desenvolvido como parte do desafio de Certificação Front-end.*
+*Projeto desenvolvido como parte do desafio de Certificação.*
