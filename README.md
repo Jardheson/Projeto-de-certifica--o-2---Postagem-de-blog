@@ -1,4 +1,5 @@
 # Postagem de Blog - Desafio API
+<img width="3821" height="1938" alt="Captura de tela 2026-01-07 184254" src="https://github.com/user-attachments/assets/ac94a3bd-a912-411e-b4ae-da3a45728ca3" />
 
 Este é um projeto de certificação front-end que simula a criação de postagens em uma rede social (semelhante ao Facebook ou LinkedIn). A aplicação permite que o usuário insira um título e um conteúdo, enviando esses dados para uma API pública (JSONPlaceholder) e exibindo o retorno na tela.
 
